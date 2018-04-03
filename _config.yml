@@ -1,9 +1,9 @@
 # Site settings
 title: WilsonWu Blog
-SEOTitle: wilsonwu的博客 | BY Blog
+SEOTitle: wilsonwu的博客 | 吴立松 | wilson | 祈俊
 header-img: img/post-bg-desk.jpg
 email: walsewu@163.com
-description: "越努力，越幸运."
+description: "记得毕业前几年还是经常在iteye写点文章，后来越来越忙也越来越懒，最近想起来也搞个博客，至少想起要写的时候有个地方可以写..."
 keyword: "吴立松的博客, wulisong, 吴立松"
 url: "http://walsewu.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
@@ -11,7 +11,7 @@ github_repo: "https://github.com/WalseWu/WalseWu.github.io.git" # you code repos
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be!"
+sidebar-about-description: "越努力，越幸运"
 sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -57,25 +57,25 @@ kramdown:
 # disqus_username: qiubaiying
 
 # Gitalk
-gitalk:
-  enable: false    #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: qiubaiying.github.io    #仓库名称
-  owner: qiubaiying    #github用户名
-  admin: qiubaiying
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+#gitalk:
+#  enable: false    #是否开启Gitalk评论
+#  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
+#  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
+#  repo: qiubaiying.github.io    #仓库名称
+#  owner: qiubaiying    #github用户名
+#  admin: qiubaiying
+#  distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
 # 统计
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: b50bf2b12b5338a1845e33832976fd68
+#ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
-ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+#ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
+#ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
@@ -96,7 +96,7 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "BLOG",
+        title: "Iteye BLOG",
         href: "http://songzi0206.iteye.com"
     }
 ]
